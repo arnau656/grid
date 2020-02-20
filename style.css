@@ -1,0 +1,227 @@
+body {
+    background: #e8e1d1;
+    color: #7c6b4f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    min-width: 960px;
+    margin: 0;
+    padding: 0;
+}
+
+#page {
+    background: url(images/bg-body.jpg) repeat-x center top;
+    overflow: hidden;
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
+
+header {
+    margin: 0 auto;
+    width: 960px;
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+.organic {
+    margin: 65px 0 0;
+    text-align: center;
+}
+
+.menu {
+    list-style: none;
+    overflow: hidden;
+    padding: 0;
+    text-align: center;
+    margin: 25px 0 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.menu div {
+    height: 34px;
+    margin: 0 5px;
+}
+
+.menu div a {
+    color: #164773;
+    font-size: 14px;
+    line-height: 32px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menu div a span {
+    cursor: pointer;
+    display: block;
+    padding: 0 15px;
+    border: 1px solid black;
+}
+
+#body {
+    margin: auto;
+}
+
+.bodyUL {
+    display: grid;
+    grid-template-columns: 275px 275px 275px;
+    padding: 20px 20px 30px;
+    grid-column-gap: 50px;
+    background: #f6efe5;
+    border: 1px solid #e0dacc;
+}
+
+.bodyUL article {
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bodyUL article:first-child {
+    background: none;
+}
+
+.bodyUL article h1 {
+    font-family: Times New Roman, Times, serif;
+    font-size: 28px;
+    line-height: 28px;
+}
+
+.bodyUL article p {
+    line-height: 23px;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+}
+
+.bodyUL article h1 a {
+    color: #0d4d79;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 0 1px #f8ffff;
+}
+
+.bodyUL article div {
+    height: 238px;
+    width: 286px;
+}
+
+.bodyUL article span {
+    color: #3e3524;
+    font-size: 16px;
+    font-family: Times New Roman, Times, serif;
+    font-weight: bold;
+    padding: 0 0 5px;
+    text-transform: uppercase;
+}
+
+.readmore {
+    color: #69614a;
+    line-height: 24px;
+    bottom: 0;
+    text-decoration: none;
+    text-align: center;
+    width: 142px;
+    border: 1px solid #706758;
+    align-self: center;
+}
+
+footer {
+    background: url(images/bg-footer.jpg) repeat-x center bottom;
+    height: 433px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 226px 226px 226px 226px;
+    width: 960px;
+    grid-column-gap: 20px;
+    margin: 20px auto;
+
+}
+
+
+.footer div h3 {
+    color: #0D4D79;
+    font-family: Times New Roman, Times, serif;
+    font-size: 20px;
+    margin: 0 0 5px;
+    text-indent: 15px;
+    text-shadow: 0 1px #F8FFFF;
+}
+
+.footer div div {
+    height: 266px;
+    padding: 10px 0 0;
+    position: relative;
+    width: 226px;
+}
+
+.footer div div#magazine img {
+    margin: 2px 0 0 3px;
+}
+
+.footer div div#gallery img {
+    margin: 5px 13px;
+}
+
+.footer div div p,
+.footer div div b,
+.footer div div span {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 24px;
+    margin: 0;
+    padding: 0 13px;
+}
+
+.footer div div a {
+    display: block;
+}
+
+.footer div div span {
+    font-size: 12px;
+}
+
+.footer div div a.viewall {
+    color: #a29c8e;
+    display: block;
+    font-size: 12px;
+    padding: 0 13px 10px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-decoration: none;
+    text-align: right;
+}
+
+.footer div div b {
+    display: block;
+}
+
+.footerD {
+    margin: 70px auto 0;
+    overflow: hidden;
+    width: 960px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footerD p {
+    font-family: Times New Roman, Times, serif;
+    margin: 0;
+}
+
+.footerD p a {
+    color: #988878;
+    text-decoration: none;
+}
+
+.footerD p a:hover {
+    color: #988878;
+    text-decoration: underline;
+}
